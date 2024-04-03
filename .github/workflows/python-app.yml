@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [ '3.5','3.11','3.12' ]
+        python-version: ['3.11','3.12' ]
     name: Test Python ${{ matrix.python-version }}
     steps:
       - uses: actions/checkout@v4
@@ -17,4 +17,4 @@ jobs:
           architecture: x64
       - run: |
          pip install pytest
-         pytest
+         pytest .

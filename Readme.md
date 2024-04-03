@@ -1,4 +1,5 @@
 # asyncinit -- Enable async `__init__`
+[![status workflow test](https://github.com/guangrei/asyncinit/actions/workflows/python-app.yml/badge.svg)](https://github.com/guangrei/asyncinit/actions) 
 
 [Documentation](http://kchmck.github.io/pdoc/asyncinit/)
 
